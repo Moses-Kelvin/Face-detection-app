@@ -5,6 +5,10 @@
     margin-top: 4rem;
 }
 
+.detect-face img { 
+width: 100%; 
+}
+
 .box {
     display: flex;
     flex-wrap: wrap;
