@@ -1,12 +1,12 @@
 .detect-face {
     position: relative;
-    width: 100%; 
+    width: 90%; 
     height: auto;
     margin-top: 4rem;
 }
 
 .detect-face img { 
-width: 100%; 
+    width: 100%; 
 }
 
 .box {
@@ -20,7 +20,7 @@ width: 100%;
 
   @media (max-width: 500px) {
     .detect-face {
-        width: 100%;
+        width: 90%;
         margin-top: 2rem;
     }
 
