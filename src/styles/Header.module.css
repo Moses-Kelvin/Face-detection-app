@@ -1,0 +1,21 @@
+nav {
+    width: 100%;
+    background-color: hsl(257, 27%, 26%);
+    box-shadow: 0 0 10px rgb( 0 0 0 /50%);
+    height: 5rem;
+}
+
+nav h1 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 1rem 0 0 3rem;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    nav h1 {
+        padding: 1rem 0 0 2rem;
+        font-size: 1.5rem;
+    }
+}

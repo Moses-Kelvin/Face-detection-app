@@ -1,0 +1,31 @@
+.detect-face {
+    position: relative;
+    width: 100%; 
+    height: auto;
+    margin-top: 4rem;
+}
+
+.detect-face img {
+    width: 80%;   
+ }
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    border: 2px solid #0000ff;
+  }
+
+  @media (max-width: 500px) {
+    .detect-face {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .detect-face img {
+       width: 100%;
+        
+    }
+  }
