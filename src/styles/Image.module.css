@@ -1,6 +1,7 @@
 .detect-face {
     position: relative;
     width: 90%; 
+    margin: auto;
     height: auto;
     margin-top: 4rem;
 }
@@ -20,7 +21,6 @@
 
   @media (max-width: 500px) {
     .detect-face {
-        width: 90%;
         margin-top: 2rem;
     }
 
